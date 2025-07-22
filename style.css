@@ -31,10 +31,10 @@ section {
 }
 
 #hero {
-  background: linear-gradient(to right, #4a00e0, #8e2de2);
+  background: linear-gradient(to right, #4a00e0, #2dbbe2);
   color: #fff;
   text-align: center;
-  padding: 100px 20px;
+  padding: 20px 20px;
 }
 
 .btn {
@@ -82,3 +82,30 @@ footer {
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
+.skills-group {
+  margin-bottom: 30px;
+}
+
+.skills-group h3 {
+  color: #4a00e0;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  border-bottom: 2px solid #ddd;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.skills-group ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.skills-group li {
+  background: #eee;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 500;
+}
